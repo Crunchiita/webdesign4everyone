@@ -9,37 +9,59 @@
 <!-- <link rel=”shortcut icon” type=”image/png” href=”/favicon.png”/> -->
 <link rel= "stylesheet" href= "css/portfolio.css">
 <script src="js/portfolio.js"></script>
+<script src="https://kit.fontawesome.com/4237844276.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
     <header>
-
+        
+        
         <a href="index.html"><h1>Portfolio</h1></a>
-        <button onclick="openMenu()"><img src="imgs/menu/whiteMenu.png"></button>
+        <i class="fas fa-bars fa-2x" id="open" onclick="openMenu()"></i>
+        <i class="fas fa-times fa-2x" id="close" onclick="closeMenu()"></i>
+        
+        
             <nav id="menu">
-                <a class="active" href="index.html">Home</a>
-                <a href="page2.html">Form</a>
-                <a href="page3.html">Blog</a>
-                <a href="page4.html">Gallery</a>
+                <a class="active" href="index.html">Home <i class="fas fa-home"></i></a>
+                <a href="page2.html">Form <i class="fas fa-file-alt"></i></i></a>
+                <a href="page3.html">Blog <i class="fas fa-users"></i></a>
+                <a href="page4.html">Gallery <i class="fas fa-image"></i></a>
             </nav>
             
 
     </header>
 
-    <main>
+    <main onclick="closeMenu()">
 
 
         <section class="homeSection" >
-            <h1>My First Web Page :)</h1>
+            <h1>Welcome!!</h1> 
+            <h2>This is my portfolio.</h2>
                         
         </section>
 
-        <section class="homeSection">
+        <aside>
+            <i class="fas fa-globe fa-10x"></i>
+        </aside>
 
-            <img src="imgs/aurora.jpg" alt="aurora">
-            
+        <section>
+            <h2>
+                Its pretty simple. Go take a look yourself and see if you like it!
+            </h2>
+        </section>
+      
+
+        <section class="calendar">
+            <h3>Here you can see how i organised my time to do this project</h3>
+            <iframe id="smallCalendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMadrid&amp;src=bW9wbmhxN25jdWtoNTk1azZpaGZ0aGhyZGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E4C441&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showTitle=0&amp;mode=MONTH&amp;showTz=0&amp;showNav=0" style="border-width:0" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+            <!-- <iframe id="bigCalendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMadrid&amp;src=bW9wbmhxN25jdWtoNTk1azZpaGZ0aGhyZGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E4C441&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0&amp;showDate=0&amp;showTitle=0&amp;mode=MONTH&amp;showTz=0&amp;showNav=0" style="border-width:0" width="700" height="400" frameborder="0" scrolling="no"></iframe>
+            -->
+        </div>
+
+        <section>
+            <p>Right! <br/> I didn't... I just wanted to use the calendar</p>
         </section>
 
 
