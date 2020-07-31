@@ -5,8 +5,10 @@ function openMenu() {
     document.getElementById('close').style.display = "block";
 }
 
-function closeMenu() {
+/* function closeMenu() {
     document.getElementById('menu').style.display = "none";
     document.getElementById('close').style.display = "none";
     document.getElementById('open').style.display = "block";
 }
+
+*/
